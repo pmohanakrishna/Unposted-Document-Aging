@@ -2,7 +2,7 @@
 
 Business Central lets you filter the sales order list by date, but you cannot see quotes, orders and unposted invoices **together**, aged into bands, grouped by who owns them. So stale documents pile up: quotes nobody chased, orders shipped but never invoiced, invoices sitting unposted since last month. This extension gives you one page that answers "what is stale and whose is it", plus an optional emailed digest so each salesperson gets only their own rows.
 
-<!-- TODO: screenshot -->
+![alt text](image.png)
 
 ## Install
 
@@ -65,7 +65,6 @@ src/
 
 - The list is a temporary buffer built on demand, so nothing is stored and nothing goes stale. Use **Refresh** to rebuild.
 - Object range 50200-50249, targeting Business Central 26.0 and later.
-- TODO: CI/CD is not set up. Use [AL-Go for GitHub](https://github.com/microsoft/AL-Go) rather than hand-written workflows.
 
 ## License
 
