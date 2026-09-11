@@ -1,0 +1,32 @@
+{
+  "id": "082afdad-17cd-467b-b0b0-3faaafcdf676",
+  "name": "Unposted Document Aging",
+  "publisher": "Mohana",
+  "version": "1.0.0.0",
+  "brief": "One list of stale unposted sales and purchase documents, aged into bands and grouped by owner.",
+  "description": "Shows quotes, orders and unposted invoices together in a single read-only list, aged into actionable bands such as Quote Expired and Shipped Not Invoiced, with drill-down to the source document and an optional per-salesperson email digest.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "28.0.0.0",
+  "idRanges": [
+    {
+      "from": 50200,
+      "to": 50249
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "17.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

@@ -1,0 +1,5 @@
+* text=auto eol=crlf
+*.al text eol=crlf
+*.md text eol=lf
+*.json text eol=lf
+*.app binary
